@@ -1,0 +1,20 @@
+{
+  "name": "random-str-msg-jhon",
+  "version": "1.0.0",
+  "description": "Repositorio para crear un paquete en npm de string aleatorios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jhon Mantilla <jhon.e.mantilla@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/Jhon-mantila/random-str-msg-jhon#readme",
+  "bin": {
+    "random-str-msg": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1"
+  }
+}
